@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '北华大学项目共享组织',
-  tagline: '一个为学生的开源项目组织',
+  tagline: '一个学生创建的开源项目组织',
   url: 'https://BHUPC90.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -59,7 +59,7 @@ const config = {
       navbar: {
         title: '北华大学项目共享组织',
         logo: {
-          alt: '一个为学生的开源项目组织',
+          alt: '一个学生创建的开源项目组织',
           src: 'img/logo.svg',
         },
         items: [
@@ -86,23 +86,6 @@ const config = {
               {
                 label: 'Tutorial',
                 to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
               },
             ],
           },
