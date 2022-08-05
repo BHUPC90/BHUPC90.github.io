@@ -14,10 +14,10 @@
 <details>
 <summary><b></b> <span style="font-size:14px;">(Click to expend) </span> </summary>
 
-### 依赖
+### 🔨 依赖
 - yarn
 
-### 开始
+### 🚀 开始
 1. 在 Github 上 fork https://github.com/BHUPC90/BHUPC90.github.io 到自己账户下
 2. 克隆到本地 
 ```bash
