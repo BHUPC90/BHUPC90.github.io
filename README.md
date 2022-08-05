@@ -1,47 +1,42 @@
 # BHUPC Official website
 
+[![github pages](https://github.com/ruixi-rebirth/ruixi-rebirth.github.io/actions/workflows/gh_pages.yml/badge.svg)](https://github.com/ruixi-rebirth/ruixi-rebirth.github.io/actions/workflows/documentation.yml)
+
 欢迎来到 北华大学开源项目共享组
 
 ## BHUPC 官方网站
 
 本网站采用 [Docusaurus 2](https://docusaurus.io/)，使用方法请参考官方文档
 
-注意本仓库有两个版本，分别是源代码和自动生成的部署网页，你只需要修改提交源码里面的文章即可，系统会自动部署打包网页。
+注意本仓库有两个分支([master](https://github.com/BHUPC90/BHUPC90.github.io/tree/master)|[gh-pages](https://github.com/BHUPC90/BHUPC90.github.io/tree/gh-pages))，分别是源代码和自动生成的静态网页，如果需要参与贡献，请往下看
 
-### 安装
 
+<details>
+<summary><b></b> <span style="font-size:14px;">(Click to expend) </span> </summary>
+
+### 依赖
+- yarn
+
+### 开始
+1. 在 Github 上 fork https://github.com/BHUPC90/BHUPC90.github.io 到自己账户下
+2. git clone https://github.com/<你的用户名>/BHUPC90.github.io.git --branch=master --depth=1 
+3. 进入该项目里
+```bash
+$ cd BHUPC90.github.io
 ```
-$ yarn
+4. 调试
+```bash
+#此命令启动本地开发服务器,默认情况下,浏览器窗口将在 http://localhost:3000 打开,即时渲染
+$ yarn && yarn run start 
 ```
-
-### 本地开发
-
-```
-$ yarn start
-```
-
-此命令启动本地开发服务器并打开浏览器窗口。大多数更改都是实时反映的，无需重新启动服务器。
-
-### 打包
-
-```
+5. 构建
+```bash
+#内容将在build目录中，可以复制到任何静态文件托管服务
 $ yarn build
 ```
-
-此命令将静态内容生成到`build`目录中，并可使用任何静态内容托管服务提供。
-
-### 部署
-
-使用 SSH:
-
+6. 将该项目推送到Github
 ```
-$ USE_SSH=true yarn deploy
+git push -u origin master
 ```
-
-不使用 SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-如果您使用GitHub页面托管，此命令是构建网站并推送到“gh pages”分支的方便方法。
+7. 发起 Pr
+</details>
