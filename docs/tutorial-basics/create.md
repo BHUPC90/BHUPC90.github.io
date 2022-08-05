@@ -2,15 +2,15 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# 在组织里创建项目
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+接下来我会带你一步步了解如创建项目，以及上传代码到项目
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+## 加入我们
 
-## Create your first React Page
+在Github中，要想在组织里创建项目，需要先加入组织，所以如果你想为开源社区贡献一份力量，请加入我们吧，加入方式请看上一个章节
+
+## 在组织里创建仓库
 
 Create a file at `src/pages/my-react-page.js`:
 

@@ -2,46 +2,24 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 你的疑问将在这里被解开
 
-Let's discover **Docusaurus in less than 5 minutes**.
+朋友，我们真诚的欢迎你！
 
-## Getting Started
+## 🍭 关于
 
-Get started by **creating a new site**.
+BHUPC(Beihua University Project Sharing Organization),顾名思义当然是希望大家共享自己的项目，独乐乐不如众乐乐，我们不要求要做得有多么好，只要你积极加入，我们都是非常开心的，为什么要有这个组织呢？我们想了很久。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+第一，是为了提供给大家分享自己项目的小平台，方便大家相互学习和分享经验。
 
-### What you'll need
+第二，也是希望大家能够有**谦虚**一些，因为，放眼望去，比你更强的人有很多，只要有积极的人生态度，我们都是欢迎的啦～
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+*tip：你觉得仅仅只能能是与计算机相关的东西吗？不，当然不是，非计算机领域的也可以加入的哦。*
 
-## Generate a new site
+## 🍹 如何加入我们？
 
-Generate a new Docusaurus site using the **classic template**.
+如果你也想为这个开源项目贡献一份力量
 
-The classic template will automatically be added to your project after you run the command:
+请点击这个 [链接](https://github.com/BHUPC90/.github/issues/new/choose)  加入我们
 
-```bash
-npm init docusaurus@latest my-website classic
-```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
