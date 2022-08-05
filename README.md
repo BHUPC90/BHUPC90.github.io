@@ -19,7 +19,10 @@
 
 ### 开始
 1. 在 Github 上 fork https://github.com/BHUPC90/BHUPC90.github.io 到自己账户下
-2. git clone https://github.com/<你的用户名>/BHUPC90.github.io.git --branch=master --depth=1 
+2. 克隆到本地 
+```bash
+$ git clone https://github.com/<你的用户名>/BHUPC90.github.io.git --branch=master --depth=1 
+```
 3. 进入该项目里
 ```bash
 $ cd BHUPC90.github.io
