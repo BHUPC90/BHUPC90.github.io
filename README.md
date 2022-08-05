@@ -39,7 +39,7 @@ $ yarn build
 ```
 6. 将该项目推送到Github
 ```
-git push -u origin master
+$ git push -u origin master
 ```
 7. 发起 Pr
 </details>
