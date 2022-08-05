@@ -69,9 +69,13 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/BHUPC90/BHUPC90.github.io',
+            to: '/blog',
+            label: 'Blog',
+            position: 'left'
+          },
+          {
+            href: 'https://github.com/BHUPC90',
             label: 'GitHub',
             position: 'right',
           },
