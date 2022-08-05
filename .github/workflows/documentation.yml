@@ -4,21 +4,13 @@ on:
     branches:
       - master
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@master
+      - uses: actions/checkout@master
+      - uses: redkubes/docusaurus-deploy-action@v1
         with:
-          persist-credentials: false
-      - name: Install and Build
-        run: |
-          npm install
-          npm run-script build
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: build
-          BUILD_SCRIPT: npm install && npm run build
+          source-folder: website
+          git-user: $SOME_USERNAME
+          git-password: ${{ secrets.ACCESS_TOKEN }}
+          deployment-branch: gh-pages
