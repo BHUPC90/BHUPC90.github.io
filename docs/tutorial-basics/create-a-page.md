@@ -12,7 +12,7 @@ sidebar_position: 1
 
 ## 在组织里创建仓库
 
-Create a file at `src/pages/my-react-page.js`:
+ 创建文件 `src/pages/my-react-page.js`:
 
 ```jsx title="src/pages/my-react-page.js"
 import React from 'react';
@@ -28,11 +28,11 @@ export default function MyReactPage() {
 }
 ```
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+现在你可以在 [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page) 找到新的页面.
 
-## Create your first Markdown Page
+## 创建您的第一个 Markdown 页面 
 
-Create a file at `src/pages/my-markdown-page.md`:
+创建文件 `src/pages/my-markdown-page.md`:
 
 ```mdx title="src/pages/my-markdown-page.md"
 # My Markdown page
@@ -40,4 +40,4 @@ Create a file at `src/pages/my-markdown-page.md`:
 This is a Markdown page
 ```
 
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+现在你可以在 [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page) 找到新的页面.
